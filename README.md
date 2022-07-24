@@ -19,7 +19,7 @@ go run ./cmd/exposer/server
 # 运行位于边缘设备的 Exposer Client (守护进程)
 go run ./cmd/exposer/client
 
-# 运行位于机房的协议转换器服务 (集群) http 和 tcp
+# 运行位于机房 http 和 tcp 的协议转换器服务 (集群)
 go run ./cmd/protoconv/http
 go run ./cmd/protoconv/tcp
 ```
