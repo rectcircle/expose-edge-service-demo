@@ -2,7 +2,7 @@
 
 ## 设计
 
-TODO: https://www.rectcircle.cn/
+https://www.rectcircle.cn/posts/design-and-demo-of-expose-edge-service/
 
 ## 运行
 
@@ -37,3 +37,7 @@ curl localhost:9000 -H 'X-Edge-Device-ID: DEVICE-0000' -H 'X-Edge-Service-ID: de
 curl localhost:9001
 # 输出: Hello, world! service id is demo2,  port is 8082
 ```
+
+## 其他说明
+
+* 心跳问题 (yamux 协议 可以配置心跳 `KeepAliveInterval` 参数，默认 10 秒)
